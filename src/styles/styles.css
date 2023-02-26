@@ -6,7 +6,7 @@ body {
 }
 
 .login-input {
-  border-radius: 20px;
+  /* border-radius: 20px; */
   font-size: 20px;
   width: 400px;
   height: 40px;
@@ -14,7 +14,8 @@ body {
 }
 
 .loginbtn {
-  border-radius: 20px;
+  background-color: #F5C583 !important;
+  color: black;
   width: 400px;
   font-size: 20px;
   height: 40px;
@@ -22,8 +23,11 @@ body {
   font-family: poppins !important;
   align-items: center;
   justify-content: center;
-  transition: .15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
 
+.bold-text{
+  font-weight: 600;
 }
 .loginbtn:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
@@ -51,7 +55,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   height: 100vh;
-  background-color: #ECD5B6;
+  background-color: #ecd5b6;
 }
 
 .login_image {
@@ -76,10 +80,14 @@ body {
     height: 100vh;
   }
 
-  .head_form{
+  .head_form {
     display: flex;
     flex-direction: column;
-align-items: center;  }
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+  }
   .d-flex {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -95,4 +103,22 @@ align-items: center;  }
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.flex-buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around !important;
+}
+
+.login_with{
+  border: 2px solid rgb(236, 236, 236) !important;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 20px;
+  display: flex;
+}
+
+.googelIcon{
+  font-size: 30px;
 }
