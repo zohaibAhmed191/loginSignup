@@ -3,7 +3,7 @@ import { Login } from "screens/Login";
 const App = () => {
   return(
       <>
-<Signup />
+<Login />
 
       </>
   )

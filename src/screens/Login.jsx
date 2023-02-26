@@ -1,6 +1,5 @@
 import { LoginOutlined } from "@ant-design/icons";
 import { Button, Checkbox, Form, Input } from "antd";
-import { Link } from "react-router-dom";
 import React from "react";
 
 export const Login = () => {
@@ -83,9 +82,7 @@ export const Login = () => {
               </Button>
             </Form.Item>
           </Form> 
-          <Link to='/signup'>
-          <p>Have No Account ?</p>
-          </Link>
+        
           </div>
         </div>
         <img src="/2.jpg" className="login_image" alt="" />
