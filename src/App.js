@@ -1,17 +1,14 @@
-import { Signup } from "screens/Signup";
 import { Login } from "screens/Login";
+import { Signup } from "screens/Signup";
 import { ForgotPassword } from "screens/ForgotPassword";
-import { OTP } from "screens/OTP";
 const App = () => {
-  return(
-      <>
-<Login />
-<Signup />
-<ForgotPassword />
-<OTP />
-
-      </>
-  )
-}
+  return (
+    <>
+      <Login />
+      <Signup />
+      <ForgotPassword />
+    </>
+  );
+};
 
 export default App;

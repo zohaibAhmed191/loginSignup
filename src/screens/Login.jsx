@@ -19,9 +19,8 @@ export const Login = () => {
         <div className="login_form">
           <div className="head_form">
             <h1>
-              <LoginOutlined /> LOGIN
+              <LoginOutlined /> Login
             </h1>
-            <p><span className="bold-text">Enter Credentails to get access your account</span></p>
 
             <Form
               name="basic"
@@ -41,6 +40,7 @@ export const Login = () => {
               onFinishFailed={onFinishFailed}
               autoComplete="off"
             >
+           
               <Form.Item
                 name="email"
                 rules={[
@@ -53,6 +53,9 @@ export const Login = () => {
                 <Input className="login-input" placeholder="Enter Email" />
               </Form.Item>
 
+         
+
+           
               <Form.Item
                 name="password"
                 rules={[
@@ -67,7 +70,6 @@ export const Login = () => {
                   placeholder="*********"
                 />
               </Form.Item>
-
               <Form.Item
                 wrapperCol={{
                   offset: 0,
@@ -75,7 +77,7 @@ export const Login = () => {
                 }}
               >
                 <Button type="primary" className="loginbtn" htmlType="submit">
-                  login
+                  Login
                 </Button>
               </Form.Item>
             </Form>
