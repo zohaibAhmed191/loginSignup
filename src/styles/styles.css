@@ -128,3 +128,12 @@ body {
 .googelIcon {
   font-size: 30px;
 }
+.cardImg{
+  height: 200px !important;
+  width: 100% !important;
+}
+
+.Store_Card{
+  /* margin: 15px !important; */
+  margin: 10px;
+}
