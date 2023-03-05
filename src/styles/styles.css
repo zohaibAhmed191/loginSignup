@@ -139,12 +139,19 @@ body {
   padding: 5px !important;
   padding-bottom: 0px !important;
   width: 280px;
-  border: 2px solid rgb(250, 248, 248);
+  border: 2px solid rgb(209, 208, 208);
   position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+.Store_Card:hover {
+  transform: scale(1.2);
+  z-index: 10000000;
 }
 
 .star {
-  color: #F9DE34 !important;
+  color: #f9de34 !important;
   font-size: 20px;
 }
 
@@ -162,21 +169,26 @@ body {
   margin: 0%;
 }
 
-
-.d-flex-card-body  div:nth-of-type(1) {
-  flex-grow: 4;
-}
-.d-flex-card-body  div:nth-of-type(2) {
-  flex-grow: 1;
-}
-
-.offer_text{
+.offer_text {
   position: absolute;
-  top: 10px;
+  top: 11px;
   right: 5px;
   color: whitesmoke;
   background-color: red;
   padding: 5px 5px 5px 8px;
   border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;;
+  border-bottom-left-radius: 20px;
+}
+
+.card-title {
+  width: 55%;
+}
+
+.location-name {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+.location-name > p {
+  margin-left: 5px;
 }
